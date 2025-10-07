@@ -1,0 +1,95 @@
+<div class="container mt-4">
+  <div class="card p-3 mb-3">
+  <form (ngSubmit)="onSearch()" class="row g-2">
+    <div class="col-md-3">
+      <input type="text" [(ngModel)]="filters.staffId" name="staffId" placeholder="Staff ID" class="form-control" />
+    </div>
+    <div class="col-md-2">
+      <select [(ngModel)]="filters.gender" name="gender" class="form-select">
+        <option value="">All</option>
+        <option value="1">Male</option>
+        <option value="2">Female</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <input type="date" [(ngModel)]="filters.startDate" name="startDate" class="form-control" />
+    </div>
+    <div class="col-md-2">
+      <input type="date" [(ngModel)]="filters.endDate" name="endDate" class="form-control" />
+    </div>
+    <div class="col-md-2  d-flex gap-2">
+      <button class="btn btn-primary" type="submit">Search</button>
+      <button class="btn btn-primary" (click)="openAdd()">New</button>
+      <button class="btn btn-success me-2" (click)="onExport('EXCEL')">Excel</button>
+      <button class="btn btn-danger" (click)="onExport('PDF')">PDF</button>
+    </div>
+  </form>
+</div>
+
+  <table class="table table-bordered table-striped">
+    <thead class="table-light">
+      <tr>
+        <th>Staff ID</th>
+        <th>Full Name</th>
+        <th>Birthday</th>
+        <th>Gender</th>
+        <th width="150">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let s of staffs">
+        <td>{{ s.staffId }}</td>
+        <td>{{ s.fullName }}</td>
+        <td>{{ s.birthday | date: 'yyyy-MM-dd' }}</td>
+        <td>{{ s.gender == 1 ? 'Male' : 'Female' }}</td>
+        <td>
+          <button class="btn btn-sm btn-info me-2" (click)="openEdit(s)">Edit</button>
+          <button class="btn btn-sm btn-danger" (click)="delete(s.staffId)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Modal -->
+<div class="modal fade show d-block" tabindex="-1" *ngIf="showModal" style="background: rgba(0,0,0,0.5)">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">{{ isEdit ? 'Edit Staff' : 'Add Staff' }}</h5>
+        <button type="button" class="btn-close" (click)="close()"></button>
+      </div>
+      <div class="modal-body">
+        <form (ngSubmit)="save()">
+          <div class="mb-3">
+            <label class="form-label">Staff ID</label>
+            <input [(ngModel)]="staffForm.staffId" name="staffId" class="form-control" [readonly]="isEdit" />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input [(ngModel)]="staffForm.fullName" name="fullName" class="form-control" />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Birthday</label>
+            <input [(ngModel)]="staffForm.birthday" name="birthday" type="date" class="form-control" />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Gender</label>
+            <select [(ngModel)]="staffForm.gender" name="gender" class="form-select">
+              <option [value]="1">Male</option>
+              <option [value]="2">Female</option>
+            </select>
+          </div>
+
+          <div class="text-end">
+            <button type="button" class="btn btn-secondary me-2" (click)="close()">Cancel</button>
+            <button class="btn btn-success">{{ isEdit ? 'Update' : 'Save' }}</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
