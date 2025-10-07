@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|c:\\users\\ssanstar\\desktop\\company_projects\\personal\\staff management\\tests\\e2e\\staffe2etests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|solutionrelative:tests\\e2e\\staffe2etests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|c:\\users\\ssanstar\\desktop\\company_projects\\personal\\staff management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|c:\\users\\ssanstar\\desktop\\company_projects\\personal\\staff management\\tests\\unit\\staffcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|solutionrelative:tests\\unit\\staffcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|c:\\users\\ssanstar\\desktop\\company_projects\\personal\\staff management\\tests\\unit\\staffrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|solutionrelative:tests\\unit\\staffrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|c:\\users\\ssanstar\\desktop\\company_projects\\personal\\staff management\\tests\\integration\\staffintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|solutionrelative:tests\\integration\\staffintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|c:\\users\\ssanstar\\desktop\\company_projects\\personal\\staff management\\controllers\\staffscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|solutionrelative:controllers\\staffscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|c:\\users\\ssanstar\\desktop\\company_projects\\personal\\staff management\\repositories\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|solutionrelative:repositories\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|c:\\users\\ssanstar\\desktop\\company_projects\\personal\\staff management\\classes\\xmldatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|solutionrelative:classes\\xmldatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|c:\\users\\ssanstar\\desktop\\company_projects\\personal\\staff management\\models\\staffmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|solutionrelative:models\\staffmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|c:\\users\\ssanstar\\desktop\\company_projects\\personal\\staff management\\classes\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|solutionrelative:classes\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|c:\\users\\ssanstar\\desktop\\company_projects\\personal\\staff management\\data\\staffs.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|solutionrelative:data\\staffs.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|c:\\users\\ssanstar\\desktop\\company_projects\\personal\\staff management\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{34132E0E-2945-47B2-AE1D-54119CEA5778}|Staff Management.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StaffE2ETests.cs",
+              "DocumentMoniker": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Tests\\E2E\\StaffE2ETests.cs",
+              "RelativeDocumentMoniker": "Tests\\E2E\\StaffE2ETests.cs",
+              "ToolTip": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Tests\\E2E\\StaffE2ETests.cs",
+              "RelativeToolTip": "Tests\\E2E\\StaffE2ETests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T16:23:26.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaffControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Tests\\Unit\\StaffControllerTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Unit\\StaffControllerTests.cs",
+              "ToolTip": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Tests\\Unit\\StaffControllerTests.cs",
+              "RelativeToolTip": "Tests\\Unit\\StaffControllerTests.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAiwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T15:45:47.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StaffIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Tests\\Integration\\StaffIntegrationTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Integration\\StaffIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Tests\\Integration\\StaffIntegrationTests.cs",
+              "RelativeToolTip": "Tests\\Integration\\StaffIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T15:16:20.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StaffRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Tests\\Unit\\StaffRepositoryTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Unit\\StaffRepositoryTests.cs",
+              "ToolTip": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Tests\\Unit\\StaffRepositoryTests.cs",
+              "RelativeToolTip": "Tests\\Unit\\StaffRepositoryTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T14:49:41.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "staffs.xml",
+              "DocumentMoniker": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Data\\staffs.xml",
+              "RelativeDocumentMoniker": "Data\\staffs.xml",
+              "ToolTip": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Data\\staffs.xml",
+              "RelativeToolTip": "Data\\staffs.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-10-07T09:06:23.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-07T07:47:20.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T07:42:42.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StaffModel.cs",
+              "DocumentMoniker": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Models\\StaffModel.cs",
+              "RelativeDocumentMoniker": "Models\\StaffModel.cs",
+              "ToolTip": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Models\\StaffModel.cs",
+              "RelativeToolTip": "Models\\StaffModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:59:24.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StaffRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Repositories\\StaffRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StaffRepository.cs",
+              "ToolTip": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Repositories\\StaffRepository.cs",
+              "RelativeToolTip": "Repositories\\StaffRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAUwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:58:00.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StaffsController.cs",
+              "DocumentMoniker": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Controllers\\StaffsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StaffsController.cs",
+              "ToolTip": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Controllers\\StaffsController.cs",
+              "RelativeToolTip": "Controllers\\StaffsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T02:52:25.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Classes\\Helper.cs",
+              "RelativeDocumentMoniker": "Classes\\Helper.cs",
+              "ToolTip": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Classes\\Helper.cs",
+              "RelativeToolTip": "Classes\\Helper.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAlwFoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T10:33:05.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "XmlDataStore.cs",
+              "DocumentMoniker": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Classes\\XmlDataStore.cs",
+              "RelativeDocumentMoniker": "Classes\\XmlDataStore.cs",
+              "ToolTip": "C:\\Users\\ssanstar\\Desktop\\Company_Projects\\Personal\\Staff Management\\Classes\\XmlDataStore.cs",
+              "RelativeToolTip": "Classes\\XmlDataStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:38:42.144Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

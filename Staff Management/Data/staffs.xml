@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Staffs>
+  <StaffModel>
+    <StaffId>S0000001</StaffId>
+    <FullName>Alice Smiths</FullName>
+    <Birthday>1990-01-01</Birthday>
+    <Gender>2</Gender>
+  </StaffModel>
+  <StaffModel>
+    <StaffId>S0000002</StaffId>
+    <FullName>star</FullName>
+    <Birthday>2025-10-07</Birthday>
+    <Gender>2</Gender>
+  </StaffModel>
+  <StaffModel>
+    <StaffId>S0000004</StaffId>
+    <FullName>heng</FullName>
+    <Birthday>1122-01-01</Birthday>
+    <Gender>1</Gender>
+  </StaffModel>
+  <StaffModel>
+    <StaffId>S0000003</StaffId>
+    <FullName>tola</FullName>
+    <Birthday>2011-01-01</Birthday>
+    <Gender>1</Gender>
+  </StaffModel>
+</Staffs>
