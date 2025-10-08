@@ -12,17 +12,17 @@ namespace Staff_Management.Controllers
     [ApiController]
     public class StaffsController : ControllerBase
     {
-        private readonly StaffRepository _staffRepo = new();
+        private readonly IStaffRepository _iStaffRepo;
 
-        public StaffsController(StaffRepository staffRepo) 
+        public StaffsController(IStaffRepository iStaffRepo)
         {
-            _staffRepo = staffRepo;
+            _iStaffRepo = iStaffRepo;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAll([FromQuery] StaffFilter filter)
         {
-            var staffs = _staffRepo.GetAll();
+            var staffs = _iStaffRepo.GetAll();
 
             staffs = staffs.Where(x =>
                     (string.IsNullOrEmpty(filter.StaffId) || x.StaffId == filter.StaffId) &&
@@ -56,7 +56,7 @@ namespace Staff_Management.Controllers
         [HttpGet("{staffId}")]
         public async Task<IActionResult> GetStaff(string staffId)
         {
-            var note = _staffRepo.GetById(staffId);
+            var note = _iStaffRepo.GetById(staffId);
             if (note == null)
                 return NotFound("Note not found");
 
@@ -66,21 +66,21 @@ namespace Staff_Management.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] StaffModel staff)
         {
-            _staffRepo.Add(staff);
+            _iStaffRepo.Add(staff);
             return Ok(staff);
         }
 
         [HttpPut]
         public async Task<IActionResult> Update([FromBody] StaffModel staff)
         {
-            var isSuccess = _staffRepo.Update(staff.StaffId, staff);
+            var isSuccess = _iStaffRepo.Update(staff.StaffId, staff);
             return isSuccess ? Ok("Staff updated") : NotFound("Staff not found !!!");
         }
 
         [HttpDelete("{staffId}")]
         public async Task<IActionResult> Delete(string staffId)
         {
-            var isSuccess = _staffRepo.Delete(staffId);
+            var isSuccess = _iStaffRepo.Delete(staffId);
             return isSuccess ? Ok("Staff deleted") : NotFound("Staff not found !!!");
         }
     }

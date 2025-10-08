@@ -1,0 +1,33 @@
+name: C# Staff Management CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      # 1 Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2️ Setup .NET (adjust version if needed)
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      # 3️ Restore dependencies
+      - name: Restore dependencies
+        run: dotnet restore
+
+      # 4️ Build the project
+      - name: Build
+        run: dotnet build --configuration Release --no-restore
+
+      # 5️ Run unit tests
+      - name: Run tests
+        run: dotnet test --configuration Release --no-build --verbosity normal

@@ -4,8 +4,16 @@ using System.Xml.Linq;
 
 namespace Staff_Management.Repositories
 {
-
-    public class StaffRepository
+    public interface IStaffRepository
+    {
+        List<StaffModel> GetAll();
+        StaffModel? GetById(string staffId);
+        void SaveAll(IEnumerable<StaffModel> list);
+        void Add(StaffModel staff);
+        bool Update(string staffId, StaffModel updated);
+        bool Delete(string staffId);
+    }
+    public class StaffRepository : IStaffRepository
     {
         private readonly XmlDataStore<StaffModel> _store;
 
